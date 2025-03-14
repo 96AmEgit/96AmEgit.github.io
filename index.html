@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta charset="utf-8">
-    <title>Progate</title>
-  </head>
-  <body>
-    <h1 class="title">はじめまして、私の名前はくろあめです</h1>
-    <p>ゲームクリエイターやってます</p>
-  </body>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲームポートフォリオ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        #gameFrame {
+            width: 80%;
+            max-width: 800px;
+            height: 500px;
+            border: 2px solid #333;
+            background-color: #000;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ゲームポートフォリオ</h1>
+    <input type="text" id="gameTitle" placeholder="ゲームの名前を入力" />
+    <div id="gameFrame">
+        <p style="color: white; padding: 20px;">ここにWebGLゲームを埋め込みます</p>
+    </div>
+</body>
 </html>
