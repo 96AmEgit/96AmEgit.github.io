@@ -3,37 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ゲームポートフォリオ</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        #gameFrame {
-            width: 80%;
-            max-width: 800px;
-            height: 500px;
-            border: 2px solid #333;
-            background-color: #000;
-            margin: auto;
-            overflow: hidden;
-            position: relative;
-        }
-        #gameFrame iframe {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>ゲームクリエイターのポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>あなたのゲームのタイトル</h1>
-    <div id="gameFrame">
-        <iframe src="https://96amegit.github.io/WebGLBuild/" width="100%" height="100%" frameborder="0"></iframe>
-    </div>
+    <header>
+        <h1>ゲームクリエイターのポートフォリオ</h1>
+    </header>
+    
+    <section class="profile">
+        <img src="images/profile.png" alt="プロフィール画像">
+        <h2>あなたの名前</h2>
+        <p>ゲームクリエイターとして活動中！主にUnityでゲームを作っています。</p>
+    </section>
+
+    <section class="links">
+        <h3>フォローはこちら！</h3>
+        <a href="https://twitter.com/kurounityame" target="_blank">Twitter</a>
+        <a href="https://github.com/96amegit" target="_blank">GitHub</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 あなたの名前</p>
+    </footer>
 </body>
 </html>
