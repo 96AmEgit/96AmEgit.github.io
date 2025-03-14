@@ -21,13 +21,19 @@
             border: 2px solid #333;
             background-color: #000;
             margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        #gameFrame iframe {
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    <h1>あなたのゲームのタイトル</h1>NNewton
+    <h1>あなたのゲームのタイトル</h1>
     <div id="gameFrame">
-        <p style="color: white; padding: 20px;">ここにWebGLゲームを埋め込みます</p>
+        <iframe src="https://96amegit.github.io/" width="100%" height="100%" frameborder="0"></iframe>
     </div>
 </body>
 </html>
