@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>くろあめ ゲームクリエイター</title>
+    <title>くろあめ | ゲームクリエイター</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -23,53 +24,44 @@
         <a href="https://github.com/96amegit" target="_blank">GitHub</a>
     </section>
 
-    <!-- 🎮 制作したゲーム一覧 -->
     <section class="game-section">
         <h2>🎮 制作したゲーム一覧</h2>
         <div class="game-container">
             <!-- ゲーム1 -->
             <div class="game-card">
-                <img src="images/CCCgazou.png" alt="ゲーム1">
-                <h3>CrazyContainerCreaner</h3>
-                <p>このゲームは3DアクションFPSゲームです。</p>
+                <img src="images/game1.jpg" alt="ゲーム1">
+                <h3>ゲームタイトル1</h3>
+                <p>このゲームは〇〇を目的とした作品です。</p>
+                <button class="toggle-button" onclick="toggleDescription('desc1')">詳細を見る</button>
+                <div class="game-description" id="desc1">
+                    <p>ここにゲームの詳細な説明を書きます。例えば、どんなゲームなのか、プレイ時間の目安、開発時のこだわりポイントなど。</p>
+                </div>
             </div>
+
             <!-- ゲーム2 -->
             <div class="game-card">
-                <img src="images/Hogazou.png" alt="ゲーム2">
-                <h3>DifficultHockey</h3>
-                <p>このゲームは3Dお手軽ミニゲームです。</p>
+                <img src="images/game2.jpg" alt="ゲーム2">
+                <h3>ゲームタイトル2</h3>
+                <p>このゲームは△△なシステムが特徴です。</p>
+                <button class="toggle-button" onclick="toggleDescription('desc2')">詳細を見る</button>
+                <div class="game-description" id="desc2">
+                    <p>ここに詳細説明を記載。ゲームの特徴や遊び方、開発背景などを記入可能。</p>
+                </div>
             </div>
+
             <!-- ゲーム3 -->
             <div class="game-card">
-                <img src="images/KPgazou.png" alt="ゲーム3">
-                <h3>CasualKeshiPin</h3>
-                <p>このゲームは3D直感的対戦ゲームです。</p>
-            </div>
-        </div>
-
-        <div class="game-container">
-            <!-- ゲーム4 -->
-            <div class="game-card">
-                <img src="images/NNgazou.png" alt="ゲーム4">
-                <h3>NNewton</h3>
-                <p>このゲームは2Dシンプルミニゲームです。</p>
-            </div>
-            <!-- ゲーム5 -->
-            <div class="game-card">
-                <img src="images/SRgazou.png" alt="ゲーム5">
-                <h3>Snowlumberjuck</h3>
-                <p>このゲームは3Dシンプル攻略ゲームです。</p>
-            </div>
-            <!-- ゲーム6 -->
-            <div class="game-card">
-                <img src="images/ACgazou.png" alt="ゲーム6">
-                <h3>SuperBlockBrawl</h3>
-                <p>このゲームは3Dシンプル対戦ゲームです。</p>
+                <img src="images/game3.jpg" alt="ゲーム3">
+                <h3>ゲームタイトル3</h3>
+                <p>このゲームは□□をテーマにしています。</p>
+                <button class="toggle-button" onclick="toggleDescription('desc3')">詳細を見る</button>
+                <div class="game-description" id="desc3">
+                    <p>ここにゲームの詳細な説明を書きます。ターゲット層やストーリー、特徴的なシステムなどを記入可能。</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- フッター -->
     <footer>
         <p>&copy; 2024 くろあめ</p>
     </footer>
